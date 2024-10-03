@@ -6,7 +6,7 @@
 
 ## Подключение библиотеки SDK видеоплеера
 
-Вы можете подключить библиотеки SDK видеоплеера с помощью [Xcode SPM](#xcode-spm) или в [Package.swift](#package-swift).
+Вы можете подключить библиотеки SDK видеоплеера с помощью [Xcode SPM](#xcode-spm) или в [Package.swift](#packageswift).
 
 ### Xcode SPM
 
