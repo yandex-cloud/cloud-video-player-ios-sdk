@@ -2,7 +2,7 @@
 
 Вы можете добавить [видеоплеер](https://yandex.cloud/ru/docs/video/concepts/player) с контентом из Cloud Video в ваше мобильное приложение для iOS. Для этого воспользуйтесь SDK видеоплеера.
 
-Чтобы использовать SDK, вам понадобится установленная и настроенная среда разработки [Xcode](https://developer.apple.com/xcode/) версии 15.3 или выше с языком программирования [Swift](https://www.swift.org/install/macos/) версии 5.8 или выше.
+Чтобы использовать SDK, вам понадобится установленная и настроенная среда разработки [Xcode](https://developer.apple.com/xcode/) версии 16.4 или выше с языком программирования [Swift](https://www.swift.org/install/macos/) версии 5.10 или выше.
 
 ## Подключение библиотеки SDK видеоплеера
 
@@ -13,7 +13,7 @@
 1. В окне Xcode навигатора проектов (**Project Navigator**) выберите свой проект. 
 1. На верхней панели нажмите **File** и выберите **Add Package Dependencies...**
 1. В строке поиска введите `https://github.com/yandex-cloud/cloud-video-player-ios-sdk/` и выберите пакет `cloud-video-player-ios-sdk`.
-1. В поле **Dependency Rule** выберите **Up to Next Major Version** и укажите версию `0.1.0-beta`.
+1. В поле **Dependency Rule** выберите **Up to Next Major Version** и укажите версию `0.1.6`.
 1. В поле **Add to Project** выберите проект, к которому вы хотите подключить библиотеки, и нажмите **Add Package**.
 1. Во всплывающем окне укажите, к какому таргету в проекте подключить библиотеки, и нажмите **Add Package**.
       
@@ -31,7 +31,7 @@
     dependencies: [
       .package(
         url: "https://github.com/yandex-cloud/cloud-video-player-ios-sdk/",
-        from: "0.1.0-beta"
+        from: "0.1.6"
       )
     ],
     ```
