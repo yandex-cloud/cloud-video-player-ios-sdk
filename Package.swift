@@ -3,11 +3,11 @@
 
 import PackageDescription
 
-let version = "0.1.6"
+let version = "0.1.7"
 let baseUri = "https://storage.yandexcloud.net/videoplatform-public/player/ios-cloud-video-player-sdk/"
 
-let playerChecksum = "6e32ee83b53b61a94b66eba09c8e6aabf172f01c213300e0875a494e93642c23"
-let playerUIChecksum = "00e869bef181d821cf651c6cab4e8e3463d250870c7874d7559b38d2ad221ae2"
+let playerChecksum = "9669523e8b4899227b02e7e4a97c0a7838c553dc673b7e415a4d62ad5db3670f"
+let playerUIChecksum = "ee4a0ee214873251bac9f094776563cc7fbbebe1482dc4c843f1c79843125ab8"
 
 let playerUri = "\(baseUri)\(version)/CloudVideoPlayer.xcframework.zip"
 let playerUIUri = "\(baseUri)\(version)/CloudVideoPlayerUI.xcframework.zip"
